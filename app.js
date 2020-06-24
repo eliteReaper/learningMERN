@@ -63,7 +63,7 @@ app.use((req, res, next) => {
 
 mongoose
   .connect(
-    "mongodb+srv://parthapaul:MgqfS2H3GLdA5n9@libraryforfools.umfgz.mongodb.net/shop?retryWrites=true&w=majority",
+    "mongodb+srv://parthapaul:<RemovingPassword>@libraryforfools.umfgz.mongodb.net/shop?retryWrites=true&w=majority",
     { useUnifiedTopology: true, useNewUrlParser: true }
   )
   .then((res) => {
