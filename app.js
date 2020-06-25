@@ -15,7 +15,7 @@ const User = require("./models/user");
 const app = express();
 const Store = new mondoDBStore({
   uri:
-    "mongodb+srv://parthapaul:MgqfS2H3GLdA5n9@libraryforfools.umfgz.mongodb.net/shop",
+    "mongodb+srv://parthapaul:<RemovePassword>@libraryforfools.umfgz.mongodb.net/shop",
   collection: "sessions",
 });
 
